@@ -39,7 +39,7 @@ export class HomePage implements OnInit {
     let params;
     if (this.platform.is('android')) {
       params = {
-        webClientId: '177293255036-lvvvciluhveoc3b1cto7f0597a2n4uht.apps.googleusercontent.com',
+        webClientId: 'xxx',
         offline: true
       };
     } else {
