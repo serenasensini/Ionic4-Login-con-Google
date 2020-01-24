@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      User Google Profile
+      Profilo
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -24,7 +24,7 @@
     </ion-row>
     <ion-row *ngIf="user.phoneNumber">
       <ion-col col-3 padding-left class="label">
-        phoneNumber
+        Numero di telefono
       </ion-col>
       <ion-col col-9>
         {{user.phoneNumber}}
@@ -32,7 +32,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-3 padding-left class="label">
-        Creation Time
+        Data di creazione
       </ion-col>
       <ion-col col-9>
         {{user.creationTime}}
@@ -40,7 +40,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-3 padding-left class="label">
-        last Sign In Time
+        Ultimo accesso
       </ion-col>
       <ion-col col-9>
         {{user.lastSignInTime}}
@@ -49,7 +49,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-3 padding-left class="label">
-        Is User Anonymous?
+        Utente anonimo
       </ion-col>
       <ion-col col-9>
         {{user.isAnonymous}}
@@ -57,7 +57,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-3 padding-left class="label">
-        Is Email Verified?
+        Email verificata
       </ion-col>
       <ion-col col-9>
         {{user.emailVerified}}
